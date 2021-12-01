@@ -1,4 +1,4 @@
-import day_1
+import problems.day_1
 
-day_1.problem_1()
-day_1.problem_2()
+problems.day_1.problem_1()
+problems.day_1.problem_2()

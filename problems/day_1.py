@@ -1,5 +1,5 @@
 def problem_1():
-  with open("day_1.txt", "r") as puzzle_input_txt:
+  with open("problems/day_1.txt", "r") as puzzle_input_txt:
     puzzle_input = puzzle_input_txt.read().split("\n")
     
     print(puzzle_input[0], puzzle_input[-1])
@@ -18,7 +18,7 @@ def problem_1():
     print(len([x for x in increases if x == "TRUE"]))
 
 def problem_2():
-  with open("day_1.txt", "r") as puzzle_input_txt:
+  with open("problems/day_1.txt", "r") as puzzle_input_txt:
     puzzle_input = puzzle_input_txt.read().split("\n")
     
     print(puzzle_input[0], puzzle_input[-1])
