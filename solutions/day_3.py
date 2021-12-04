@@ -19,8 +19,7 @@ def problem_1():
   for char_list in input_list:
     gamma += "0" if char_list.count('0') > char_list.count('1') else "1"
     epsilon += "0" if char_list.count('1') > char_list.count('0') else "1" 
-  print(gamma, epsilon)
-  print(int(gamma, 2) * int(epsilon, 2))
+  print(gamma, epsilon,int(gamma, 2) * int(epsilon, 2))
 
 
 def recurse(ls, tp="most", i = 0):
@@ -36,10 +35,7 @@ def recurse(ls, tp="most", i = 0):
     filtr = '0' if ones > zeroes or ones == zeroes else '1'
   
   new_ls = [x for x in ls if x[i] == filtr]
-  print(i,filtr, len(new_ls))
   
-  if len(new_ls) < 5:
-    print(new_ls)
   
   if len(new_ls) != 1:
     return recurse(new_ls, tp, i=i+1)
