@@ -24,3 +24,9 @@ import solutions.day_4
 print_title("4")
 solutions.day_4.problem_1()
 solutions.day_4.problem_2()
+
+import solutions.day_5
+
+print_title("5")
+solutions.day_5.problem_1()
+solutions.day_5.problem_2()
