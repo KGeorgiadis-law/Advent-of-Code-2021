@@ -1,5 +1,5 @@
 def read_input():
-  with open(r"solutions/inputs/day_5.txt", "r") as txt:
+  with open(r"solutions/inputs/day_x.txt", "r") as txt:
     input_list = txt.read().split("\n")
     return input_list
 
